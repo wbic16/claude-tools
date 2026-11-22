@@ -6,6 +6,15 @@ _Seed for the substrate-ops skill. Will ran every command here; Claude advised f
 Labels: **observed** (in a log or prompt Will pasted), **reported** (Will said so),
 **inferred** (my reasoning, not yet checked).
 
+## Update, 21:50 CST: the seat moved to a ranch node
+
+- **reported:** Will moved a Claude instance onto ranch node `rock-mountain` and confirmed it
+  works. Reason: lilly has 32 GB, and every WSL2 distro on her shares one VM and one memory
+  pool with Neon's seat.
+- **not yet evidenced:** anything from `rock-mountain` itself. A hello is waiting in `mail/`.
+- The WSL2 box below is therefore a first step, not the durable home. The Tailscale incident
+  still stands as a record for any future sibling distro on lilly.
+
 ## State as of 21:25 CST
 
 - **observed:** a WSL2 distro exists with hostname `claude-tools`, user `wbic16`, working from
